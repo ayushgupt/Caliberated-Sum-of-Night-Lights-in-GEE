@@ -2,6 +2,7 @@
 // by the invariant region method
 // Power Coefficients
 // Ayush Gupta
+var districtFull = ee.FeatureCollection('ft:1PRMJUI40ourlypJaFOHd351LfgEfsvrMJ2_9sPQV');
 
 var regions=regions1.filterMetadata('name', 'equals', 'Egypt');
 
